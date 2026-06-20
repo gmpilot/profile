@@ -1,0 +1,21 @@
+# Golam Mahadi
+
+> Official research and professional portfolio of Golam Mahadi, an MSc Computer Science student and Chinese Government Scholarship (CSC) scholar at Dalian University of Technology.
+
+Golam Mahadi researches reinforcement learning for LLVM compiler optimization and SAT-solving workloads, RL-guided UAV trajectory planning, multi-agent path prediction, PP2D spatial models and battery Doyle-Fuller-Newman modelling. He graduated in Software Engineering from Zhengzhou University in 2025 and works in IT and Foreign Sales at Dayang International Company.
+
+## Primary pages
+
+- [Home](https://gmpilot.github.io/portfolio2024/): official profile and overview
+- [Research](https://gmpilot.github.io/portfolio2024/research.html): active research tracks and scope
+- [Publications](https://gmpilot.github.io/portfolio2024/publications.html): four publications with citations
+- [Projects](https://gmpilot.github.io/portfolio2024/projects.html): research prototypes and software projects
+- [Services](https://gmpilot.github.io/portfolio2024/services.html): freelance web development, SEO, AI and research support
+- [Experience](https://gmpilot.github.io/portfolio2024/experience.html): education, work and skills
+- [Contact](https://gmpilot.github.io/portfolio2024/contact.html): collaboration and project enquiries
+
+## Verified external profiles
+
+- ResearchGate: https://www.researchgate.net/profile/Golam-Mahadi
+- LinkedIn: https://www.linkedin.com/in/gmpilot13
+- GitHub: https://github.com/gmpilot

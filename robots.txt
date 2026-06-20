@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gmpilot.github.io/portfolio2024/sitemap.xml

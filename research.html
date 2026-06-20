@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Research — Golam Mahadi | Reinforcement Learning, LLVM & Autonomous Systems</title>
+  <meta name="description" content="Explore Golam Mahadi's current research in RL-guided LLVM pass optimization for SAT solving, UAV trajectory planning, multi-agent prediction, PP2D and battery DFN modelling.">
+  <meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://gmpilot.github.io/portfolio2024/research.html">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#f5f4ef">
+  <meta property="og:title" content="Research — Golam Mahadi"><meta property="og:description" content="Reinforcement learning for compiler optimization, autonomous trajectory planning and multi-agent systems."><meta property="og:url" content="https://gmpilot.github.io/portfolio2024/research.html"><meta property="og:image" content="https://gmpilot.github.io/portfolio2024/assets/images/og-cover.jpg"><meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Research by Golam Mahadi","url":"https://gmpilot.github.io/portfolio2024/research.html","description":"Current AI and software engineering research by Golam Mahadi.","about":{"@id":"https://gmpilot.github.io/portfolio2024/#golam-mahadi"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://gmpilot.github.io/portfolio2024/"},{"@type":"ListItem","position":2,"name":"Research","item":"https://gmpilot.github.io/portfolio2024/research.html"}]}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a><div class="site-progress" aria-hidden="true"></div><header data-site-header></header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container"><div class="breadcrumbs"><a href="index.html">Home</a><span>/</span><span>Research</span></div><div class="page-hero-grid"><h1>Research built around <span class="text-gradient">better decisions.</span></h1><p class="lede">I study learning-guided optimization in systems where choices are sequential, expensive and constrained—from compiler passes to autonomous motion.</p></div></div>
+    </section>
+
+    <section class="section section-compact">
+      <div class="container">
+        <div class="section-head reveal"><div><p class="eyebrow">Research landscape</p><h2>One question, six connected tracks.</h2></div><p>How can learning systems search a large decision space quickly, select effective actions and remain useful under real-world constraints?</p></div>
+        <div class="research-map reveal" aria-label="Map of Golam Mahadi's connected research areas">
+          <div class="map-core">LEARNING-GUIDED<br>OPTIMIZATION</div>
+          <div class="map-node n1">LLVM Pass Selection<small>Compiler systems</small></div>
+          <div class="map-node n2">SAT Workloads<small>Search & verification</small></div>
+          <div class="map-node n3">UAV Trajectories<small>Autonomous planning</small></div>
+          <div class="map-node n4">Multi-Agent Paths<small>Coordination</small></div>
+          <div class="map-node n5">PP2D<small>Spatial modelling</small></div>
+          <div class="map-node n6">Battery DFN<small>Electrochemical models</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="compiler-intelligence">
+      <div class="container">
+        <div class="section-head reveal"><div><p class="eyebrow">Current work · Compiler intelligence</p><h2>Teaching optimization systems what to try next.</h2></div><p>LLVM exposes many optimization passes, but pass selection and ordering create a large combinatorial search space. My current work explores reinforcement learning as a policy for navigating that space on SAT-solving workloads.</p></div>
+        <div class="track-grid">
+          <article class="track-card reveal"><span class="status">In progress</span><h3>LLVM Pass Optimization for SAT Solving</h3><p>Benchmarking pass sequences, measuring runtime and code-level effects, and identifying optimization behaviour that matters for SAT-oriented programs.</p><div class="tag-row"><span>LLVM</span><span>C/C++</span><span>SAT</span><span>Benchmarking</span></div></article>
+          <article class="track-card reveal"><span class="status">In progress</span><h3>RL-Guided Pass Selection</h3><p>Formulating pass selection as a sequential decision problem: state representation, action choice, reward design and policy evaluation.</p><div class="tag-row"><span>Reinforcement Learning</span><span>Policy Search</span><span>Optimization</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-compact" id="autonomous-systems">
+      <div class="container">
+        <div class="section-head reveal"><div><p class="eyebrow">Autonomous systems</p><h2>Planning fast, accurate trajectories with limited resources.</h2></div><p>Autonomous agents need more than a geometrically valid path. A practical trajectory must balance time, safety, energy, uncertainty and changing environmental conditions.</p></div>
+        <div class="track-grid">
+          <article class="track-card reveal"><span class="status">Active investigation</span><h3>RL-Guided UAV Trajectory Selection</h3><p>Studying reward structures and policies for selecting efficient drone trajectories while responding to obstacles and operational constraints.</p><div class="tag-row"><span>UAV</span><span>Trajectory</span><span>RL</span><span>Control</span></div></article>
+          <article class="track-card reveal" id="multi-agent"><span class="status">Active investigation</span><h3>Multi-Agent Path & Trajectory Prediction</h3><p>Exploring coordinated best-way finding, interaction-aware prediction and collision-conscious planning across multiple moving agents.</p><div class="tag-row"><span>Multi-Agent</span><span>Prediction</span><span>Path Planning</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-compact" id="battery-models">
+      <div class="container">
+        <div class="section-head reveal"><div><p class="eyebrow">Emerging models</p><h2>Early-stage work at the edge of spatial and physical modelling.</h2></div><p>These tracks are still being scoped and developed. They are presented as ongoing research—not completed results.</p></div>
+        <div class="track-grid">
+          <article class="track-card reveal"><span class="status">Exploratory</span><h3>PP2D Spatial Modelling</h3><p>Early work on spatial reasoning and path-planning representations, with emphasis on useful problem formulations and measurable evaluation.</p><div class="tag-row"><span>PP2D</span><span>Spatial Reasoning</span><span>Planning</span></div></article>
+          <article class="track-card reveal"><span class="status">Ongoing</span><h3>Battery Doyle–Fuller–Newman Model</h3><p>Learning and applying the DFN electrochemical model to understand battery behaviour and support better state or performance prediction.</p><div class="tag-row"><span>DFN</span><span>Battery</span><span>Scientific Modelling</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta-panel reveal"><p class="eyebrow" style="color:#c8f135">Research collaboration</p><h2>Working on compilers, autonomous systems or scientific ML?</h2><p class="body-lg">I’m interested in focused collaborations, reproducible experiments and technically ambitious problems with clear evaluation.</p><div class="button-row"><a class="button button-primary" href="contact.html">Discuss a collaboration <span>↗</span></a><a class="button" style="border-color:rgba(255,255,255,.35);color:#fff" href="publications.html">Read publications</a></div></div>
+    </section>
+  </main>
+  <footer data-site-footer></footer><script src="assets/js/site.js" defer></script>
+</body>
+</html>

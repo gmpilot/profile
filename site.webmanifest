@@ -1,0 +1,10 @@
+{
+  "name": "Golam Mahadi — Research & Professional Portfolio",
+  "short_name": "Golam Mahadi",
+  "description": "Research and professional portfolio of Golam Mahadi.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f4ef",
+  "theme_color": "#f5f4ef",
+  "icons": [{"src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml"}]
+}
